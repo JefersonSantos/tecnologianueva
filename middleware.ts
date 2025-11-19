@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 // LOCAL TEST PARAM
-const localTestParam = 'JSvEyAogeImhnLAP';
+const localTestParam = 'NosReFejSanBas';
 
 // PARAM LIST
 const paramList: Record<string, string> = {
@@ -59,4 +59,5 @@ export function middleware(req: NextRequest) {
 
 export const config = {
   matcher: ["/:path*"],
+
 };
