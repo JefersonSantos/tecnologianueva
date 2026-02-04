@@ -30,8 +30,8 @@ export function LayerProvider({
 }: LayerProviderProps) {
 
   // SET LINKS
-  const frontLink = 'https://pay.hotmart.com/Q52900654A?off=6ojo9xy2';
-  const promoLink = 'https://pay.hotmart.com/Q52900654A?off=zpv1letr';
+  const frontLink = 'https://pay.kiwify.com/KLdfjLJ';
+  const promoLink = 'https://pay.kiwify.com/j5q9apQ';
 
   const contextValue = {
     host,
@@ -57,7 +57,7 @@ export function useLayer() {
   if (!layer) {
     throw new Error("useLayer deve ser usado dentro de LayerProvider");
   };
-  
+
   return layer;
 
 
